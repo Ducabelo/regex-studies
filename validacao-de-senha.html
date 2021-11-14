@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validação de Senha</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Validar senhas usando Regex</h1>
+    <!-- Formulário 1 -->
+    <div class="container-senha">
+      <h2>Senha 1</h2>
+      <p>
+        Sua senha deve conter pelo menos seis caracteres, pelo menos um número e
+        pelo menos uma letra.
+      </p>
+      <form id="form-1">
+        <label for="senha"
+          >Senha:
+          <input
+            type="text"
+            id="senha-1"
+            name="senha-1"
+            value=""
+            placeholder="Digite sua Senha:" /></label
+        ><br /><br />
+        <input
+          class="submit"
+          type="submit"
+          id="send-form-1"
+          value="Consultar"
+        />
+      </form>
+    </div>
+
+    <!-- Formulário 2 -->
+    <div class="container-senha">
+      <h2>Senha 2</h2>
+      <p>
+        Sua senha deve conter pelo menos 8 caracteres, pelo menos um número,
+        pelo menos uma letra e pelo menos um caracter especial.
+      </p>
+      <form id="form-2">
+        <label for="senha"
+          >Senha:
+          <input
+            type="text"
+            id="senha-2"
+            name="senha-2"
+            value=""
+            placeholder="Digite sua Senha:" /></label
+        ><br /><br />
+        <input
+          class="submit"
+          type="submit"
+          id="send-form-2"
+          value="Consultar"
+        />
+      </form>
+    </div>
+
+    <!-- Formulário 3 -->
+
+    <div class="container-senha">
+      <h2>Senha 3</h2>
+      <p>
+        Sua senha deve conter de seis a dez caracteres, pelo menos um número,
+        pelo menos uma letra minúscula e uma maiúscula e pelo menos um caracter
+        especial.
+      </p>
+      <form id="form-3">
+        <label for="senha"
+          >Senha:
+          <input
+            type="text"
+            id="senha-3"
+            name="senha-3"
+            value=""
+            placeholder="Digite sua Senha:" /></label
+        ><br /><br />
+        <input
+          class="submit"
+          type="submit"
+          id="send-form-3"
+          value="Consultar"
+        />
+      </form>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
