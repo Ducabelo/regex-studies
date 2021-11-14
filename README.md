@@ -1,6 +1,8 @@
 # Regex
 ## Regex e Javascript para validar uma senha.
 
+[Clique aqui para conferir:](https://ducabelo.github.io/regex-studies/)
+
 ### 1º caso:
 
 - A senha deve conter pelo menos seis caracteres de dois tipos:
@@ -38,6 +40,8 @@ Símbolos: $*&@#%
 
 # Regex studies
 ## Regex and little javascript code to validate the password.
+
+[Click here to check:](https://ducabelo.github.io/regex-studies/)
 
 ### 1º case:
 
