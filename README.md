@@ -15,7 +15,7 @@ Números de 0-9
 
 ### 2º caso:
 
-- A senha deve conter pelo menos seis caracteres de dois tipos:
+- A senha deve conter pelo menos seis caracteres, pelo menos um de cada dos três tipos:
 
 Letra maiúscula ou minúscula: a-z ou A-Z
 
@@ -27,7 +27,7 @@ Símbolos: $*&@#%
 
 ### 3º caso:
 
-- A senha deve conter pelo menos seis caracteres de três tipos:
+- A senha deve conter pelo menos seis caracteres, pelo menos um de cada dos quatro tipos:
 
 Letra maiúscula: A-Z
 
